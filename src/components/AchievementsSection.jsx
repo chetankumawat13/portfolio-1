@@ -8,7 +8,7 @@ const achievements = [
   {
     id: 1,
     title: "codingquest",
-    detail: "Attended a coding assessment round focused on data structures, algorithms, and programming fundamentals.”",
+    detail: "Attended a coding assessment round focused on data structures, algorithms, and programming fundamentals.",
     position: "",
     year: "",
     institution: "Buddha Innovation Council",
