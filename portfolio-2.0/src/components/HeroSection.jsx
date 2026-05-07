@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import personImage from "../assests/person.png";
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -136,7 +135,7 @@ export function HeroSection() {
     <section
       id="hero"
       ref={sectionRef}
-      className="relative min-h-screen flex items-end pb-20 md:pb-28 px-6 md:px-12 overflow-hidden"
+      className="py-32 md:py-48 px-6 md:px-12 relative flex justify-center"
     >
       {/* Grid overlay */}
       <div
@@ -300,9 +299,9 @@ export function HeroSection() {
               }}
             >
               <img
-                src={personImage}
+                src="https://ik.imagekit.io/ad6av31ld/PHOTO-2026-05-07-22-12-25.jpg"
                 alt="Ankita Singh"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top "
                 onMouseEnter={(e) => {
                   const lightEl = imageRef.current?.querySelector('.light-effect');
                   if (lightEl) lightEl.style.opacity = "1";

@@ -111,7 +111,7 @@ export function ProjectSection() {
     <section
       id="projects"
       ref={sectionRef}
-      className="py-24 md:py-40 px-6 md:px-12 relative"
+      className="py-32 md:py-48 px-6 md:px-12 relative flex justify-center"
     >
       <div className="max-w-7xl mx-auto">
         {/* Label */}

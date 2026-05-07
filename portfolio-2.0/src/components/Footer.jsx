@@ -38,7 +38,7 @@ export function Footer() {
 
   return (
     <footer ref={footerRef} className="px-6 md:px-12 pb-12 pt-20">
-      <div className="max-w-7xl mx-auto">
+      <div className="py-32 md:py-48 px-6 md:px-12 relative flex justify-center">
         <div
           className="footer-line w-full h-px origin-left mb-8"
           style={{ backgroundColor: "var(--border)" }}

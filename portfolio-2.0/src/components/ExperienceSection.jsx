@@ -93,7 +93,7 @@ export default function ExperienceSection() {
       ref={sectionRef}
       className="py-24 md:py-40 px-6 md:px-12 relative"
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="py-32 md:py-48 px-6 md:px-12 relative flex flex-col justify-center">
         {/* Label */}
         <div className="exp-label flex items-center gap-4 mb-16 md:mb-20">
           <span

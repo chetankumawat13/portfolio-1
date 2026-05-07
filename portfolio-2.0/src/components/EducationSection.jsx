@@ -73,7 +73,7 @@ export function EducationSection() {
       ref={sectionRef}
       className="py-32 md:py-48 px-6 md:px-12 relative"
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="py-32 md:py-48 px-6 md:px-12 relative flex justify-center">
         {/* Label */}
         <div className="edu-label flex items-center gap-4 mb-16">
           <span

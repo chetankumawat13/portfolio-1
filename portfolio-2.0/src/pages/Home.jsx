@@ -28,14 +28,14 @@ const Home = () => {
 
   return (
     <div
-      className="min-h-screen overflow-x-hidden transition-colors duration-300"
+      className="min-h-screen overflow-x-hidden flex flex-col p-3  transition-colors duration-300"
       style={{
         backgroundColor: "var(--background)",
         color: "var(--foreground)",
       }}
     >
       <Navbar toggleTheme={toggleTheme} theme={theme} />
-      <main>
+      <main >
         <HeroSection />
         <AboutSection />
         <SkillsSection />
